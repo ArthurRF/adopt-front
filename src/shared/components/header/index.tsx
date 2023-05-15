@@ -1,13 +1,13 @@
 import React from 'react'
 
-const HeaderBar: React.FC = () => {
+const NavBar: React.FC = () => {
   return (
-    <header className='bg-gray-800 p-4'>
+    <header className='bg-red-dark p-8'>
       <nav className='container mx-auto flex flex-wrap items-center justify-between'>
-        <div className='text-white'>ei</div>
+        <h1 className='text-xl font-bold text-white'>APAD</h1>
       </nav>
     </header>
   )
 }
 
-export { HeaderBar }
+export { NavBar }

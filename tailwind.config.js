@@ -7,7 +7,13 @@ module.exports = {
     './src/shared/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'red-light': '#AA4864',
+        'red-mid': '#952645',
+        'red-dark': '#7F1C37',
+      },
+    },
   },
   plugins: [],
 }
